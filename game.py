@@ -15,7 +15,7 @@ def guessfun(tin):
         print('Way to follow directions. This counts as a guess. Try again:')
         return tin
     
-print('Guessing Game')
+print("Cliff's Guessing Game")
 print('Enter a number between 1 and 100: ')
 number = int(input())
 guessfun(number)
