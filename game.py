@@ -1,10 +1,10 @@
 ##Guessing Game
 
 import random
-compnum = random.randint(1, 100)
+compnum = random.randint(1, 1000)
 
 def guessfun(tin):
-    if tin > 0 and tin <= 100:
+    if tin > 0 and tin <= 1000:
         if tin < compnum:
             print('Too low. Guess again:')
             return tin
@@ -16,7 +16,7 @@ def guessfun(tin):
         return tin
     
 print("Cliff's Guessing Game")
-print('Enter a number between 1 and 100: ')
+print('Enter a number between 1 and 1000: ')
 number = int(input())
 guessfun(number)
 
